@@ -1,0 +1,8 @@
+---
+spring:
+  application:
+    name: GATEWAY
+  cloud:
+    config:
+      name: tokens, actuator, eureka, hystrix, routesZuul
+      uri: "http://localhost:8888"

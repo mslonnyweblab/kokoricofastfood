@@ -1,0 +1,8 @@
+---
+spring:
+  application:
+    name: OAUTH
+  cloud:
+    config:
+      name: tokens, eureka, hystrix, actuator
+      uri: "http://localhost:8888"

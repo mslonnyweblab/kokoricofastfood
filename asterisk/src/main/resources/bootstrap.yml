@@ -1,0 +1,8 @@
+---
+spring:
+  application:
+    name: ASTERISK
+  cloud:
+    config:
+      name: eureka, hystrix, actuator, baseAsterisk, rabbitmq
+      uri: "http://localhost:8888"

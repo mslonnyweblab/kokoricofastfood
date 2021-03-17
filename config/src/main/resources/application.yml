@@ -1,0 +1,22 @@
+--- 
+server: 
+  port: 8888
+spring: 
+  application: 
+    name: CONFIG
+  cloud: 
+    config: 
+      server: 
+        git: 
+          default-label: main
+          uri: "${URL_GITHUB}"
+          password: "${PASSWORD_GITHUB}"
+          username: "${USERNAME_GITHUB}"
+
+debug: false
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

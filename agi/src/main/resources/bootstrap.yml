@@ -1,0 +1,11 @@
+---
+spring:
+  application:
+    name: AGI
+  cloud:
+    config:
+      name: cadastro, eureka, hystrix, actuator, baseAgi, rabbitmq
+      uri: "http://localhost:8888"
+#  main:
+    #    web-application-type: none
+#    allow-bean-definition-overriding: true

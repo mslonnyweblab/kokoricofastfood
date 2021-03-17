@@ -1,0 +1,8 @@
+---
+spring:
+  application:
+    name: BASE-CREDENTIALS
+  cloud:
+    config:
+      name: baseCredentials, eureka, hystrix
+      uri: "http://localhost:8888"

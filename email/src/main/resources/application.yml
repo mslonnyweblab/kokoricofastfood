@@ -1,0 +1,10 @@
+---
+spring:
+  application:
+    name: EMAIL
+  main:
+    #    web-application-type: none
+    allow-bean-definition-overriding: true
+
+server:
+  port: ${PORT:0}

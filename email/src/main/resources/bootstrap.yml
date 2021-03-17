@@ -1,0 +1,8 @@
+---
+spring:
+  application:
+    name: email
+  cloud:
+    config:
+      name: email, hystrix, eureka, actuator
+      uri: "http://localhost:8888"
